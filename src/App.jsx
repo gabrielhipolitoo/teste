@@ -46,9 +46,8 @@ function App() {
   ])
 
   return (
-    <>
-      teste
-    </>
+    <RouterProvider router={router}/>
+
   );
 }
 
